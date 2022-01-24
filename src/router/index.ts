@@ -9,8 +9,8 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'User',
-    component: User
+    name: 'Home',
+    component: Home
   },
   // {
     // path: '/about',

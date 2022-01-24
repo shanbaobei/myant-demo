@@ -50,7 +50,9 @@ export default {
             .then(res => {
                 console.log('调用成功',res)
             })
+            this.$router.push('/home')
         }
+        
     }
 
 }
